@@ -6,7 +6,7 @@ interface AccordionItem {
   id: number
   title: string
   content: {
-    type: 'text' | 'list' | 'comparison' | 'timeline'
+    type: 'text' | 'list' | 'comparison' | 'timeline' | 'mixed'
     data: any
   }
   icon: string
